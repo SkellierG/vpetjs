@@ -1,0 +1,24 @@
+{
+  "name": "vpetjs",
+  "version": "0.0.1",
+  "description": "virtual pet in javascript",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkellierG/vpetjs.git"
+  },
+  "keywords": [
+    "tamagotchi"
+  ],
+  "author": "SkellierG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkellierG/vpetjs/issues"
+  },
+  "homepage": "https://github.com/SkellierG/vpetjs#readme"
+}
