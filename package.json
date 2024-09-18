@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/SkellierG/vpetjs/issues"
   },
-  "homepage": "https://github.com/SkellierG/vpetjs#readme"
+  "homepage": "https://github.com/SkellierG/vpetjs#readme",
+  "dependencies": {
+    "blessed": "0.1.81"
+  }
 }
