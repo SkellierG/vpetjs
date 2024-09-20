@@ -1,19 +1,30 @@
 {
+  "private": true,
   "name": "vpetjs",
   "version": "0.0.1",
   "description": "virtual pet in javascript",
-  "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-backend": "npm --prefix backend start",
+    "start-tui": "npm --prefix frontend/tui start",
+    "start-gjs": "npm --prefix frontend/gjs start"
   },
+  "workspaces": [
+    "backend",
+    "frontend/tui",
+    "frontend/gjs"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SkellierG/vpetjs.git"
   },
   "keywords": [
-    "tamagotchi"
+    "tamagotchi",
+    "virtual pet",
+    "pet",
+    "tui",
+    "gnome",
+    "gjs"
   ],
   "author": "SkellierG",
   "license": "ISC",
@@ -21,7 +32,8 @@
     "url": "https://github.com/SkellierG/vpetjs/issues"
   },
   "homepage": "https://github.com/SkellierG/vpetjs#readme",
-  "dependencies": {
-    "blessed": "0.1.81"
+  "devDependencies": {
+    "@types/node": "22.5.5",
+    "typescript": "5.6.2"
   }
 }

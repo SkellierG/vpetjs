@@ -1,0 +1,12 @@
+{
+  "name": "vpetjs-frontend-tui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
